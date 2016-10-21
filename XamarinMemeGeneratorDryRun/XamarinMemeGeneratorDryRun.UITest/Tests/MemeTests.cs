@@ -18,7 +18,7 @@ namespace XamarinMemeGeneratorDryRun.UITest.Tests
             App.WaitForElement(Queries.ButtonGenerateMeme);
             App.Tap(Queries.ButtonGenerateMeme);
             App.Wait(2);
-            App.Screenshot("Given the app is in the Main view");
+            App.Screenshot("After I tap the button, I can see a meme image.");
         }
 
     }
