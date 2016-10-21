@@ -13,9 +13,9 @@ namespace XamarinMemeGeneratorDryRun.UITest.Configuration
     internal class MainLocalConfiguration : ITestRunConfiguration
     {
         public string PathToAPK { get { return Path.Combine(SlnPath, "XamarinMemeGeneratorDryRun.Droid", "bin", "Release", "com.XamarinMemeGeneratorDryRun.apk"); } }
-        public string PathToAPP { get { return Path.Combine(SlnPath, "XamarinMemeGeneratorDryRun.UITest", "Apps", "ios", "XamarinMemeGeneratorDryRun.UITest.app"); } }
+        public string PathToAPP { get { return Path.Combine(SlnPath, "XamarinMemeGeneratorDryRun.UITest", "bin", "Release", "XamarinMemeGeneratorDryRun.UITest.app"); } }
         public string AndroidPackageName { get { return "com.XamarinMemeGeneratorDryRun"; } }
-        public string IOSBundleID { get { return "com.XamarinMemeGeneratorDryRun.UITest"; } } //TODO change this
+        public string IOSBundleID { get { return "com.xamarinmemegeneratordryrun.ios"; } } 
 
         private string _slnPath = null;
         private string SlnPath
