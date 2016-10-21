@@ -34,7 +34,7 @@ namespace XamarinMemeGeneratorDryRun.UITest
                                 .StartApp();
                     case Platform.iOS: //NOTE(avfe) This only supports iOS Simulator
                                        //ResetSimulator(deviceId);
-                        var deviceId = IosSimulatorsManager.GetDeviceId(IosSimulators.iPhone6Plus_81Simulator);
+						var deviceId = IosSimulatorsManager.GetDeviceId(IosSimulators.simTest);
                         return ConfigureApp.iOS
                             .DeviceIdentifier(deviceId) //Get Devices name in terminal: xcrun instruments -s devices
                             .AppBundle(config.PathToAPP)

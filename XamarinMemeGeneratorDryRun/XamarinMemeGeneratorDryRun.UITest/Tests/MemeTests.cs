@@ -13,7 +13,7 @@ namespace XamarinMemeGeneratorDryRun.UITest.Tests
 
         //TODO Add more tests
         [Test]
-        [SmokeTest]
+        //[SmokeTest]
         public void GenerateMeme()
         {
             App.Wait(2);

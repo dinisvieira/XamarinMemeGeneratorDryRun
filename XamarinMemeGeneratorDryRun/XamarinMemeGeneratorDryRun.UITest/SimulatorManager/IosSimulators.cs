@@ -3,7 +3,9 @@ namespace XamarinMemeGeneratorDryRun.UITest.SimulatorManager
 {
     public static class IosSimulators
     {
-        // TODO: Add your devices Id's here
+		// TODO: Add your devices Id's here
+		public static string simTest = "08DCB587-36A5-4687-A055-883F42297714";
+
         public static string iPhone5_81Simulator = "iPhone 5 (8.1 Simulator)";
         public static string iPhone5s_81Simulator = "iPhone 5s (8.1 Simulator)";
 

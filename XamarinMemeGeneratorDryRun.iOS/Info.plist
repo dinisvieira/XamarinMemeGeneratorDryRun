@@ -33,6 +33,6 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>CFBundleDisplayName</key>
-	<string>xamarinmemegeneratordryrunIOS</string>
+	<string>XamarinMemeGeneratorDryRun.iOS</string>
 </dict>
 </plist>
