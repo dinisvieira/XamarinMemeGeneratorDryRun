@@ -38,6 +38,7 @@ namespace XamarinMemeGeneratorDryRun.UITest
                         return ConfigureApp.iOS
                             .DeviceIdentifier(deviceId) //Get Devices name in terminal: xcrun instruments -s devices
                             .AppBundle(config.PathToAPP)
+                            //.InstalledApp("com.xpandit.caparticulares.iOS") //To be added only for a real device after installing app on device, must also comment the two lines above
                             .StartApp();
                 }
 

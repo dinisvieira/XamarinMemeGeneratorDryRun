@@ -60,7 +60,6 @@
     <Compile Include="BaseTestFixture.cs" />
     <Compile Include="Categories\SmokeTestAttribute.cs" />
     <Compile Include="Tests\MemeTests.cs" />
-    <Compile Include="Tests\LoginTests.cs" />
     <Compile Include="Configuration\ITestRunConfiguration.cs" />
     <Compile Include="Configuration\MainLocalConfiguration.cs" />
     <Compile Include="Extensions\IAppExtension.cs" />
