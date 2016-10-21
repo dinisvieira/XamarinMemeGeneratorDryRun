@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using Xamarin.UITest;
+using XamarinMemeGeneratorDryRun.UITest.Categories;
 using XamarinMemeGeneratorDryRun.UITest.Extensions;
 
 namespace XamarinMemeGeneratorDryRun.UITest.Tests
@@ -12,6 +13,7 @@ namespace XamarinMemeGeneratorDryRun.UITest.Tests
 
         //TODO Add more tests
         [Test]
+        [SmokeTest]
         public void GenerateMeme()
         {
             App.Wait(2);
